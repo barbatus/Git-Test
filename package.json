@@ -2,7 +2,6 @@
   "name": "tailadmin-react",
   "private": true,
   "version": "2.1.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -19,8 +18,12 @@
     "@react-jvectormap/core": "^1.0.4",
     "@react-jvectormap/world": "^1.1.2",
     "apexcharts": "^4.1.0",
+    "axios": "^1.4.0",
     "clsx": "^2.1.1",
+    "execp": "^0.0.1",
     "flatpickr": "^4.6.13",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
     "react": "^19.0.0",
     "react-apexcharts": "^1.7.0",
     "react-dnd": "^16.0.1",
@@ -29,6 +32,7 @@
     "react-dropzone": "^14.3.5",
     "react-helmet-async": "^2.0.5",
     "react-router": "^7.1.5",
+    "request": "^2.88.2",
     "swiper": "^11.2.3",
     "tailwind-merge": "^3.0.1"
   },
