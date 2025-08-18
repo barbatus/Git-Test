@@ -31,10 +31,10 @@ const tableData: Product[] = [
   },
   {
     id: 2,
-    name: "Apple Watch Ultra",
-    variants: "1 Variant",
-    category: "Watch",
-    price: "$879.00",
+    name: "Apple Watch Ultra", 
+    variants: "1 Variant", 
+    category: "Watch", 
+    price: "$879.00", 
     status: "Pending",
     image: "/images/product/product-02.jpg",
   },
@@ -51,7 +51,7 @@ const tableData: Product[] = [
     id: 4,
     name: "iPad Pro 3rd Gen",
     variants: "2 Variants",
-    category: "Electronics",
+    category: "Electronics", 
     price: "$1699.00",
     status: "Canceled",
     image: "/images/product/product-04.jpg",
@@ -96,7 +96,7 @@ export default function RecentOrders() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
-              <path
+              <path 
                 d="M17.7075 14.0961H2.29085"
                 stroke=""
                 strokeWidth="1.5"
