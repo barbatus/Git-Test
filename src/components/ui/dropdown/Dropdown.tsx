@@ -19,8 +19,8 @@ export const Dropdown: React.FC<DropdownProps> = ({
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
-        dropdownRef.current &
-        !dropdownRef.current.contains(event.target as Node) &
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node) &&
         !(event.target as HTMLElement).closest(".dropdown-toggle")
       ) {
         onClose();
